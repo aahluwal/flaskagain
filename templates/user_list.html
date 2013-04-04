@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head><Title>Welcome to the Movie Rating Website</Title></head>
+<h2>
+	Please Login
+</h2>
+	<div id = "login">
+		<form action="{{url_for("login")}}", method="POST", 
+			<div>
+				<label for="email">email</label>
+				<input type="text" name="email" placeholder="email"</input>
+			</div>
+			<div>
+				<label for="password">password</label>
+				<input type="text" name="password" placeholder="password"</input>
+			</div>
+				<input type="submit">
+	</div>
+<h2>
+	New User Registration
+</h2>
+	<div id="register">
+		<form action="{{url_for("login")}}", method="POST"
+			<div>
+				<label for="email">email</label>
+				<input type="text" name="email" placeholder="password"</input>
+				<br>
+				<label for="password">password</label>
+				<input type="text" name="password" placeholder="password"</input>
+				<br>
+				<label for="age">age</label>
+				<input type="integer" name="age" placeholder="age"</input>
+				<br>
+				<label for="zipcode">zipcode</label>
+				<input type="text" name="zipcode" placeholder="zipcode"</input>
+				<br>
+				<input type="submit">
+			</div>
+	</div>
+
+</html>

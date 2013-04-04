@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!-- create a new user -->
+<html>
+<head>
+Please log in
+</head>
+<form method="POST" action="{{ url_for('new_user') }}"
+	<h1>Please register</h1>
+	<br>
+	<label for = "e-mail">e-mail</label>
+	<input type="text" name="email" placeholder="email"</input>
+	<br>
+	<label for="password">password</label>
+	<input type="text" name="password" placeholder="password"</input>
+	<br>
+	<label for="age">age</label>
+	<input type="integer" name="age" placeholder="age"</input>
+	<br>
+	<label for="zipcode">zipcode</label>
+	<input type="text" name="zipcode" placeholder="zipcode"</input>
+	<br>
+	<button class="btn btn-primary btn-small">Submit</button>
+</form>
+</html>
